@@ -11,21 +11,42 @@ const Projects = () => {
       title: "Diseño Web - Tienda Online",
       description:
         "Desarrollo completo de una tienda online con React y Node.js.",
-      image: `${process.env.PUBLIC_URL}/images/proyecto1.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/CapturaConcesionaria.png`,
       link: "https://miproyecto1.com",
     },
     {
       title: "Landing Page - Agencia Creativa",
       description:
         "Diseño moderno y responsivo para una agencia de marketing digital.",
-      image: `${process.env.PUBLIC_URL}/images/proyecto2.png`,
+      image: `${process.env.PUBLIC_URL}/images/CapturaDBZ.png`,
       link: "https://miproyecto2.com",
     },
     {
       title: "App de Tareas",
       description:
         "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
-      image: `${process.env.PUBLIC_URL}/images/proyecto3.webp`,
+      image: `${process.env.PUBLIC_URL}/images/CapturaKiosco.png`,
+      link: "https://miproyecto3.com",
+    },
+    {
+      title: "App de Tareas",
+      description:
+        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+      image: `${process.env.PUBLIC_URL}/images/CapturaMLiebre.png`,
+      link: "https://miproyecto3.com",
+    },
+    {
+      title: "App de Tareas",
+      description:
+        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+      image: `${process.env.PUBLIC_URL}/images/CapturaSimpsons.png`,
+      link: "https://miproyecto3.com",
+    },
+    {
+      title: "App de Tareas",
+      description:
+        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+      image: `${process.env.PUBLIC_URL}/images/CapturaMundial.png`,
       link: "https://miproyecto3.com",
     },
   ];
