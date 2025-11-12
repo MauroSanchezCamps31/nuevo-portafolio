@@ -8,46 +8,46 @@ const Projects = () => {
 
   const projectData = [
     {
-      title: "Diseño Web - Tienda Online",
+      title: "Concesionaria",
       description:
-        "Desarrollo completo de una tienda online con React y Node.js.",
+        "Concesionaria es un proyecto desarrollado en equipo junto a mis compañeros del curso de Digital House. Fue creado en 2023 utilizando Express, SQL y JavaScript. Por cuestiones de despliegue, actualmente el proyecto puede visualizarse únicamente clonando el repositorio desde mi GitHub.",
       image: `${process.env.PUBLIC_URL}/images/CapturaConcesionaria.png`,
-      link: "https://miproyecto1.com",
+     
     },
     {
-      title: "Landing Page - Agencia Creativa",
+      title: "Dragon Ball",
       description:
-        "Diseño moderno y responsivo para una agencia de marketing digital.",
+        "Dragon Ball es un proyecto individual dirigido a fanáticos, donde se pueden explorar las diferentes sagas y consultar la cantidad de poder de cada personaje. Fue desarrollado utilizando React y Tailwind CSS.",
       image: `${process.env.PUBLIC_URL}/images/CapturaDBZ.png`,
-      link: "https://miproyecto2.com",
+      link: "https://dragon-ball-wine-chi.vercel.app/",
     },
     {
-      title: "App de Tareas",
+      title: "Kiosco",
       description:
-        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+        "Es un proyecto desarrollado en React, y es uno de mis favoritos porque permite usar un carrito de compras completamente funcional. Actualmente, el proyecto está en uso real por mi prima para gestionar su kiosco.",
       image: `${process.env.PUBLIC_URL}/images/CapturaKiosco.png`,
-      link: "https://miproyecto3.com",
+      link: "https://kiosco-prima-i5wd.vercel.app/",
     },
     {
-      title: "App de Tareas",
+      title: "Mercado Liebre",
       description:
-        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+        "Es el primer proyecto que realicé utilizando JavaScript. Es un sitio estático desarrollado durante el curso de Digital House. Originalmente lo publiqué a través del hosting de Render, pero debido al tiempo ya no está disponible en línea, por lo que actualmente puede consultarse únicamente en mi GitHub.",
       image: `${process.env.PUBLIC_URL}/images/CapturaMLiebre.png`,
-      link: "https://miproyecto3.com",
+      
     },
     {
-      title: "App de Tareas",
+      title: "Los Simpsons",
       description:
-        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+        "Es un proyecto individual dirigido a fanáticos, desarrollado con React y Tailwind CSS. Es un proyecto divertido donde se pueden encontrar trivias y frases de los personajes. Debido a su tamaño, no ha sido posible subirlo en línea, por lo que actualmente solo puede consultarse clonando el repositorio desde mi GitHub.",
       image: `${process.env.PUBLIC_URL}/images/CapturaSimpsons.png`,
       link: "https://miproyecto3.com",
     },
     {
-      title: "App de Tareas",
+      title: "Mundiales de Fútbol",
       description:
-        "Aplicación de gestión de tareas con persistencia local y diseño minimalista.",
+        "Es un proyecto individual desarrollado en React, donde se pueden consultar las estadísticas de los distintos mundiales de fútbol.",
       image: `${process.env.PUBLIC_URL}/images/CapturaMundial.png`,
-      link: "https://miproyecto3.com",
+      link: "https://mundiales-soccer.vercel.app/",
     },
   ];
 
