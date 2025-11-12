@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>Portafolio de Mau</h1>
+      <h1>Portafolio de Mauro Sanchez Camps</h1>
       <nav>
         {/* En lugar de href, usamos botones para controlar el scroll */}
         <button onClick={() => scrollToSection("about")}>Sobre mí</button>

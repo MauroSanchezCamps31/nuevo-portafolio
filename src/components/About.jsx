@@ -17,13 +17,7 @@ const About = () => {
         <div className="about-text">
           <h2>Sobre mí</h2>
           <p>
-            ¡Hola! Soy <strong>Mau</strong>, desarrollador frontend apasionado por crear
-            experiencias web limpias, funcionales y visualmente atractivas.  
-            Me encanta trabajar con React, JavaScript y diseño UX/UI.
-          </p>
-          <p>
-            En este portafolio encontrarás algunos de mis proyectos recientes, donde combino
-            código bien estructurado con diseño moderno.
+            Me llamo Mauro y soy desarrollador web con experiencia, autodidacta e innovador, siempre en busca de nuevas formas de aprender y crecer profesionalmente. Me gradué del curso de Desarrollador Full Stack en Digital House, donde adquirí los fundamentos del desarrollo web, incluyendo HTML, CSS, Tailwind CSS, JavaScript, React, Node.js y MySQL. Cuento con un nivel intermedio de inglés, lo que me permite comunicarme y colaborar con clientes y colegas de distintos países. La inteligencia artificial es mi principal herramienta, que utilizo para optimizar proyectos, aprender nuevas tecnologías y mejorar mi productividad. Mis intereses personales incluyen tecnología, fútbol, música, política y economía, y estoy seguro de que puedo aportar un valor significativo a su empresa, por lo que agradecería la oportunidad de conversar más a fondo sobre cómo mis habilidades y experiencia pueden contribuir a sus proyectos.
           </p>
         </div>
       </div>
