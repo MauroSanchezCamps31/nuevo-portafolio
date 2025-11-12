@@ -1,0 +1,20 @@
+.footer {
+  background-color: #20232a;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.footer .socials {
+  margin-top: 0.5rem;
+}
+
+.footer .socials a {
+  color: #61dafb;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.footer .socials a:hover {
+  text-decoration: underline;
+}

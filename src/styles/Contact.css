@@ -1,0 +1,47 @@
+.contact-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact-section h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-section p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #4cb7e0;
+}
