@@ -1,26 +1,43 @@
+/* ======== CONTENEDOR PRINCIPAL ======== */
 .header {
   background-color: #20232a;
   color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 10;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center; /* centra el contenido */
 }
 
-.header h1 {
+/* ======== CONTENIDO INTERNO ======== */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* ✅ evita que se estire demasiado */
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header-title {
   font-size: 1.5rem;
   margin: 0;
+  white-space: nowrap;
 }
 
-.header nav {
+/* ======== NAVEGACIÓN ======== */
+.header-nav {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.header nav button {
+.header-nav button {
   background: none;
   border: none;
   color: #61dafb;
@@ -30,10 +47,12 @@
   transition: color 0.3s;
 }
 
-.header nav button:hover {
+.header-nav button:hover {
   color: #9be3ff;
   text-decoration: underline;
 }
+
+/* ======== BOTÓN DESCARGAR ======== */
 .download-btn {
   background-color: #007bff;
   color: white;
@@ -43,8 +62,34 @@
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  flex-shrink: 0; /* ✅ evita que el botón se comprima o desborde */
+  white-space: nowrap; /* ✅ evita que se rompa en dos líneas */
 }
 
 .download-btn:hover {
   background-color: #0056b3;
+}
+
+/* ======== MODO RESPONSIVO ======== */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .header-nav button {
+    text-align: left;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
 }
