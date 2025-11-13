@@ -3,18 +3,58 @@
   color: #ccc;
   text-align: center;
   padding: 1.5rem 1rem;
+  font-size: 0.9rem;
 }
 
 .footer .socials {
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
 }
 
-.footer .socials a {
-  color: #61dafb;
-  margin: 0 0.5rem;
+.footer .social-link {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, opacity 0.3s ease;
 }
 
-.footer .socials a:hover {
-  text-decoration: underline;
+/* 🎨 Colores personalizados por red */
+.footer .github {
+  color: #b0b0b0; /* gris */
+}
+
+.footer .linkedin {
+  color: #0a66c2; /* azul LinkedIn */
+}
+
+.footer .whatsapp {
+  color: #25d366; /* verde WhatsApp */
+}
+
+/* ✨ Efecto hover general */
+.footer .social-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+/* 🔠 Tamaño del ícono */
+.footer .icon {
+  font-size: 1.2rem;
+}
+
+/* 📱 Responsive: espacio extra si se achica */
+@media (max-width: 500px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .footer .socials {
+    gap: 0.8rem;
+  }
 }
