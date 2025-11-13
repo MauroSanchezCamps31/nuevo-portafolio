@@ -19,6 +19,13 @@ const Header = () => {
         <button onClick={() => scrollToSection("projects")}>Proyectos</button>
         <button onClick={() => scrollToSection("contact")}>Contacto</button>
       </nav>
+       <a
+          href="/cv-mauro-sanchez.pdf"
+          download="Mauro-Sanchez-CV.pdf"
+          className="download-btn"
+        >
+          Descargar CV
+        </a>
     </header>
   );
 };
